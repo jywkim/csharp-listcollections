@@ -1,0 +1,11 @@
+/home/jonathan/Desktop/jywkim/csharp-listcollections/bin/Debug/netcoreapp2.1/csharp-listcollections.deps.json
+/home/jonathan/Desktop/jywkim/csharp-listcollections/bin/Debug/netcoreapp2.1/csharp-listcollections.runtimeconfig.json
+/home/jonathan/Desktop/jywkim/csharp-listcollections/bin/Debug/netcoreapp2.1/csharp-listcollections.runtimeconfig.dev.json
+/home/jonathan/Desktop/jywkim/csharp-listcollections/bin/Debug/netcoreapp2.1/csharp-listcollections.dll
+/home/jonathan/Desktop/jywkim/csharp-listcollections/bin/Debug/netcoreapp2.1/csharp-listcollections.pdb
+/home/jonathan/Desktop/jywkim/csharp-listcollections/obj/Debug/netcoreapp2.1/csharp-listcollections.csprojAssemblyReference.cache
+/home/jonathan/Desktop/jywkim/csharp-listcollections/obj/Debug/netcoreapp2.1/csharp-listcollections.csproj.CoreCompileInputs.cache
+/home/jonathan/Desktop/jywkim/csharp-listcollections/obj/Debug/netcoreapp2.1/csharp-listcollections.AssemblyInfoInputs.cache
+/home/jonathan/Desktop/jywkim/csharp-listcollections/obj/Debug/netcoreapp2.1/csharp-listcollections.AssemblyInfo.cs
+/home/jonathan/Desktop/jywkim/csharp-listcollections/obj/Debug/netcoreapp2.1/csharp-listcollections.dll
+/home/jonathan/Desktop/jywkim/csharp-listcollections/obj/Debug/netcoreapp2.1/csharp-listcollections.pdb
