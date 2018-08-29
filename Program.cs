@@ -1,12 +1,17 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 
-namespace csharp_listcollections
+namespace list_collections
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var names = new List<string> { "Jonathan", "Ana", "Felipe" };
+            foreach (var name in names)
+            {
+                Console.WriteLine($"Hello {name.ToUpper()}!");
+            }
         }
     }
 }
