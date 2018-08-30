@@ -34,24 +34,30 @@ namespace list_collections
             Console.WriteLine();
             Console.WriteLine($"The list has {names.Count} people in it");
 
+            // Console.WriteLine();
+            // var index = names.IndexOf("Felipe");
+            // if (index == -1)
+            // {
+            //     Console.WriteLine($"When an item is not found, IndexOf returns {index}");
+            // } else
+            // {
+            //     Console.WriteLine($"The name {names[index]} is at index {index}");
+            // }
+            //
+            // index = names.IndexOf("Not Found");
+            // if (index == -1)
+            // {
+            //     Console.WriteLine($"When an item is not found, IndexOf returns {index}");
+            // } else
+            // {
+            //     Console.WriteLine($"The name {names[index]} is at index {index}");
+            // }
             Console.WriteLine();
             var index = names.IndexOf("Felipe");
-            if (index == -1)
-            {
-                Console.WriteLine($"When an item is not found, IndexOf returns {index}");
-            } else
-            {
-                Console.WriteLine($"The name {names[index]} is at index {index}");
-            }
+            Console.WriteLine($"The name {names[index]} is at index {index}");
 
-            index = names.IndexOf("Not Found");
-            if (index == -1)
-            {
-                Console.WriteLine($"When an item is not found, IndexOf returns {index}");
-            } else
-            {
-                Console.WriteLine($"The name {names[index]} is at index {index}");
-            }
+            var notFound = names.IndexOf("Not Found");
+            Console.WriteLine($"When an item is not found, IndexOf returns {notFound}");
 
             names.Sort();
             foreach (var name in names)
