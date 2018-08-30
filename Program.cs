@@ -7,6 +7,11 @@ namespace list_collections
     {
         static void Main(string[] args)
         {
+            WorkingWithStrings();
+        }
+
+        public static void WorkingWithStrings()
+        {
             var names = new List<string> { "Jonathan", "Ana", "Felipe" };
             foreach (var name in names)
             {
@@ -28,6 +33,31 @@ namespace list_collections
 
             Console.WriteLine();
             Console.WriteLine($"The list has {names.Count} people in it");
+
+            Console.WriteLine();
+            var index = names.IndexOf("Felipe");
+            if (index == -1)
+            {
+                Console.WriteLine($"When an item is not found, IndexOf returns {index}");
+            } else
+            {
+                Console.WriteLine($"The name {names[index]} is at index {index}");
+            }
+
+            index = names.IndexOf("Not Found");
+            if (index == -1)
+            {
+                Console.WriteLine($"When an item is not found, IndexOf returns {index}");
+            } else
+            {
+                Console.WriteLine($"The name {names[index]} is at index {index}");
+            }
+
+            names.Sort();
+            foreach (var name in names)
+            {
+                Console.WriteLine($"Hello {name.ToUpper()}!");
+            }
         }
     }
 }
